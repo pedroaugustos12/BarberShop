@@ -302,9 +302,19 @@ i {
   gap: 12px;
   color: #fff;
   font-size: 23px;
+  transition: 0.5s;
+}
+
+.footer-icons a:hover i {
+  transition: 0.5s;
+  color: #b42b2b;
 }
 
 .copy {
+  color: #fff;
+}
+
+.copy a {
   color: #fff;
 }
 
@@ -345,6 +355,14 @@ i {
 @media screen and (max-width: 768px) {
   .btn-wpp img {
     max-width: 64px;
+  }
+  .copy {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .copy {
+    font-size: 11px;
   }
 }
 body {

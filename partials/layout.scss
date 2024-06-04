@@ -268,9 +268,21 @@
     gap: 12px;
     color: $branco-normal;
     font-size: 23px;
+    transition: 0.5s;
+}
+
+.footer-icons a:hover{
+    i{
+        transition: 0.5s;
+        color: $red-dark;
+    }
 }
 
 .copy{
+    color: $branco-normal;
+}
+
+.copy a{
     color: $branco-normal;
 }
 
@@ -319,8 +331,15 @@
         }
     }
 
-    .copy{
-        max-width: 10px;
+    .copy {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .copy {
+        font-size: 11px;
     }
 
 }
